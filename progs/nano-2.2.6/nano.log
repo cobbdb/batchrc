@@ -1,0 +1,728 @@
+   16      16 [main] nano 2612 open_shared: name shared.5, n 5, shared 0x60FB0000 (wanted 0x60FB0000), h 0x780
+  840     856 [main] nano 2612 shared_info::init_obcaseinsensitive: obcaseinsensitive set to 1
+  331    1187 [main] nano 2612 shared_info::initialize: Installation root: <\??\C:\cygwin\home\chrisa> key: <b591ac2101501a55>
+  391    1578 [main] nano 2612 heap_init: heap base 0x490000, heap top 0x490000
+  163    1741 [main] nano 2612 open_shared: name S-1-5-21-1708537768-2111687655-1801674531-1004.1, n 1, shared 0x60FC0000 (wanted 0x60FC0000), h 0x778
+  120    1861 [main] nano 2612 user_info::create: opening user shared for 'S-1-5-21-1708537768-2111687655-1801674531-1004' at 0x60FC0000
+  170    2031 [main] nano 2612 user_info::create: user shared version 0
+  666    2697 [main] nano 2612 dll_crt0_0: finished dll_crt0_0 initialization
+ 1702    4399 [main] nano 2612 _cygtls::remove: wait 0xFFFFFFFF
+  287    4686 [main] nano 2612 _cygtls::remove: removed 0x22CE64 element 0
+  394    5080 [main] nano 2612 _cygtls::remove: wait 0xFFFFFFFF
+  118    5198 [main] nano 2612 _cygtls::remove: removed 0x22CE64 element 0
+  198    5396 [main] nano 2612 _cygtls::remove: wait 0xFFFFFFFF
+  119    5515 [main] nano 2612 _cygtls::remove: removed 0x22CE64 element 0
+ 1508    7023 [sig] nano 2612 wait_sig: entering ReadFile loop, my_readsig 0x738, my_sendsig 0x734
+ 3758   10781 [main] nano 2612 _cygwin_istext_for_stdio: fd 0: not open
+  157   10938 [main] nano 2612 _cygwin_istext_for_stdio: fd 1: not open
+  119   11057 [main] nano 2612 _cygwin_istext_for_stdio: fd 2: not open
+ 1554   12611 [main] nano 2612 etc::test_file_change: NtQueryFullAttributesFile (\??\C:\cygwin\home\chrisa\etc\passwd) failed, 0xC000003A
+  647   13258 [main] nano 2612 pwdgrp::load: \etc\passwd load failed
+  544   13802 [main] nano 2612 pwdgrp::read_passwd: Completing /etc/passwd: chrisa:*:0:0:,S-1-5-21-1708537768-2111687655-1801674531-1004:C:\cygwin\home\chrisa:/bin/sh
+  475   14277 [main] nano 2612 normalize_win32_path: C:\cygwin\home\chrisa = normalize_win32_path (\??\C:\cygwin\home\chrisa)
+  166   14443 [main] nano 2612 normalize_posix_path: src /
+  120   14563 [main] nano 2612 normalize_posix_path: / = normalize_posix_path (/)
+  119   14682 [main] nano 2612 mount_info::add_item: \??\C:\cygwin\home\chrisa[C:\cygwin\home\chrisa], /[/], 0x3000A
+  258   14940 [main] nano 2612 mount_info::from_fstab: Try to read mounts from \??\C:\cygwin\home\chrisa\etc\fstab
+  360   15300 [main] nano 2612 mount_info::from_fstab: NtOpenFile(\??\C:\cygwin\home\chrisa\etc\fstab) failed, 0xC000003A
+  125   15425 [main] nano 2612 mount_info::from_fstab: Try to read mounts from \??\C:\cygwin\home\chrisa\etc\fstab.d\chrisa
+  151   15576 [main] nano 2612 mount_info::from_fstab: NtOpenFile(\??\C:\cygwin\home\chrisa\etc\fstab.d\chrisa) failed, 0xC000003A
+  123   15699 [main] nano 2612 normalize_win32_path: C:\cygwin\home\chrisa\bin = normalize_win32_path (C:\cygwin\home\chrisa\bin)
+  120   15819 [main] nano 2612 normalize_posix_path: src /usr/bin
+  119   15938 [main] nano 2612 normalize_posix_path: /usr/bin = normalize_posix_path (/usr/bin)
+  120   16058 [main] nano 2612 mount_info::add_item: C:\cygwin\home\chrisa\bin[C:\cygwin\home\chrisa\bin], /usr/bin[/usr/bin], 0x2000A
+  127   16185 [main] nano 2612 normalize_win32_path: C:\cygwin\home\chrisa\lib = normalize_win32_path (C:\cygwin\home\chrisa\lib)
+  120   16305 [main] nano 2612 normalize_posix_path: src /usr/lib
+  119   16424 [main] nano 2612 normalize_posix_path: /usr/lib = normalize_posix_path (/usr/lib)
+  119   16543 [main] nano 2612 mount_info::add_item: C:\cygwin\home\chrisa\lib[C:\cygwin\home\chrisa\lib], /usr/lib[/usr/lib], 0x2000A
+  425   16968 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\cygwin\home\chrisa\nano, no-keep-rel, no-add-slash)
+  263   17231 [main] nano 2612 normalize_win32_path: C:\cygwin\home\chrisa\nano = normalize_win32_path (C:\cygwin\home\chrisa\nano)
+  166   17397 [main] nano 2612 mount_info::conv_to_posix_path: /nano = conv_to_posix_path (C:\cygwin\home\chrisa\nano)
+  321   17718 [main] nano (2612) open_shared: name cygpid.2612, n 2612, shared 0x60FE0000 (wanted 0x60FE0000), h 0x70C
+  320   18038 [main] nano 2612 **********************************************
+  123   18161 [main] nano 2612 Program name: C:\cygwin\home\chrisa\nano\nano.exe (pid 2612, ppid 1)
+  120   18281 [main] nano 2612 App version:  1007.7, api: 0.230
+  119   18400 [main] nano 2612 DLL version:  1007.7, api: 0.230
+  118   18518 [main] nano 2612 DLL build:    2010-08-31 09:58
+  137   18655 [main] nano 2612 OS version:   Windows NT-5.1
+  118   18773 [main] nano 2612 Heap size:    402653184
+  119   18892 [main] nano 2612 **********************************************
+  119   19011 [main] nano 2612 pinfo::thisproc: myself->dwProcessId 2612
+  167   19178 [main] nano 2612 time: 1289798957 = time (0)
+  788   19966 [main] nano 2612 parse_options: glob (called func)
+  238   20204 [main] nano 2612 parse_options: returning
+  119   20323 [main] nano 2612 environ_init: GetEnvironmentStrings returned 0x10000
+  232   20555 [main] nano 2612 environ_init: 0x4B8430: !C:=C:\cygwin\bin
+  234   20789 [main] nano 2612 environ_init: 0x4B8448: ALLUSERSPROFILE=C:\Documents and Settings\All Users
+  234   21023 [main] nano 2612 environ_init: 0x4B8488: APPDATA=C:\Documents and Settings\chrisa\Application Data
+  234   21257 [main] nano 2612 environ_init: 0x4B84C8: CLIENTNAME=Console
+  234   21491 [main] nano 2612 environ_init: 0x4B84E0: COMMONPROGRAMFILES=C:\Program Files\Common Files
+  234   21725 [main] nano 2612 environ_init: 0x4B8518: COMPUTERNAME=VBOX
+  234   21959 [main] nano 2612 environ_init: 0x4B8530: COMSPEC=C:\WINDOWS\system32\cmd.exe
+  234   22193 [main] nano 2612 environ_init: 0x4B8560: CVS_RSH=/bin/ssh
+  233   22426 [main] nano 2612 environ_init: 0x4B8578: CYGWIN=noglob
+  222   22648 [main] nano 2612 environ_init: 0x4B8590: FP_NO_HOST_CHECK=NO
+  734   23382 [main] nano 2612 getwinenv: can't set native for HOME= since no environ yet
+  132   23514 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\cygwin\home\chrisa, no-keep-rel, no-add-slash)
+  124   23638 [main] nano 2612 normalize_win32_path: C:\cygwin\home\chrisa = normalize_win32_path (C:\cygwin\home\chrisa)
+  120   23758 [main] nano 2612 mount_info::conv_to_posix_path: / = conv_to_posix_path (C:\cygwin\home\chrisa)
+  352   24110 [main] nano 2612 win_env::add_cache: posix /
+  114   24224 [main] nano 2612 win_env::add_cache: native HOME=C:\cygwin\home\chrisa
+  114   24338 [main] nano 2612 posify: env var converted to HOME=/
+  327   24665 [main] nano 2612 environ_init: 0x4B8600: HOME=/
+  225   24890 [main] nano 2612 environ_init: 0x4B85B0: HOMEDRIVE=C:
+  225   25115 [main] nano 2612 environ_init: 0x4B8610: HOMEPATH=\Documents and Settings\chrisa
+  224   25339 [main] nano 2612 environ_init: 0x4B8640: HOSTNAME=vbox
+  255   25594 [main] nano 2612 environ_init: 0x4B8658: INFOPATH=/usr/local/info:/usr/share/info:/usr/info:
+  242   25836 [main] nano 2612 environ_init: 0x4B8698: LANG=C.UTF-8
+  237   26073 [main] nano 2612 environ_init: 0x4B86B0: LOGONSERVER=\\VBOX
+  233   26306 [main] nano 2612 environ_init: 0x4B86C8: MANPATH=/usr/local/man:/usr/share/man:/usr/man::/usr/ssl/man
+  233   26539 [main] nano 2612 environ_init: 0x4B8710: NUMBER_OF_PROCESSORS=1
+  239   26778 [main] nano 2612 environ_init: 0x4B8730: OLDPWD=/home/chrisa
+  232   27010 [main] nano 2612 environ_init: 0x4B8750: OS=Windows_NT
+  236   27246 [main] nano 2612 getwinenv: can't set native for PATH= since no environ yet
+  351   27597 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\cygwin\usr\local\bin, keep-rel, no-add-slash)
+  121   27718 [main] nano 2612 normalize_win32_path: C:\cygwin\usr\local\bin = normalize_win32_path (C:\cygwin\usr\local\bin)
+  121   27839 [main] nano 2612 mount_info::conv_to_posix_path: /cygdrive/c/cygwin/usr/local/bin = conv_to_posix_path (C:\cygwin\usr\local\bin)
+  121   27960 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\cygwin\bin, keep-rel, no-add-slash)
+  120   28080 [main] nano 2612 normalize_win32_path: C:\cygwin\bin = normalize_win32_path (C:\cygwin\bin)
+  152   28232 [main] nano 2612 mount_info::conv_to_posix_path: /cygdrive/c/cygwin/bin = conv_to_posix_path (C:\cygwin\bin)
+  121   28353 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\cygwin\bin, keep-rel, no-add-slash)
+  120   28473 [main] nano 2612 normalize_win32_path: C:\cygwin\bin = normalize_win32_path (C:\cygwin\bin)
+  120   28593 [main] nano 2612 mount_info::conv_to_posix_path: /cygdrive/c/cygwin/bin = conv_to_posix_path (C:\cygwin\bin)
+  120   28713 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\system32, keep-rel, no-add-slash)
+  120   28833 [main] nano 2612 normalize_win32_path: C:\WINDOWS\system32 = normalize_win32_path (C:\WINDOWS\system32)
+  120   28953 [main] nano 2612 mount_info::conv_to_posix_path: /cygdrive/c/WINDOWS/system32 = conv_to_posix_path (C:\WINDOWS\system32)
+  121   29074 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS, keep-rel, no-add-slash)
+  119   29193 [main] nano 2612 normalize_win32_path: C:\WINDOWS = normalize_win32_path (C:\WINDOWS)
+  120   29313 [main] nano 2612 mount_info::conv_to_posix_path: /cygdrive/c/WINDOWS = conv_to_posix_path (C:\WINDOWS)
+  120   29433 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\WINDOWS\System32\Wbem, keep-rel, no-add-slash)
+  120   29553 [main] nano 2612 normalize_win32_path: C:\WINDOWS\System32\Wbem = normalize_win32_path (C:\WINDOWS\System32\Wbem)
+  120   29673 [main] nano 2612 mount_info::conv_to_posix_path: /cygdrive/c/WINDOWS/System32/Wbem = conv_to_posix_path (C:\WINDOWS\System32\Wbem)
+  344   30017 [main] nano 2612 win_env::add_cache: posix /cygdrive/c/cygwin/usr/local/bin:/cygdrive/c/cygwin/bin:/cygdrive/c/cygwin/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem
+  120   30137 [main] nano 2612 win_env::add_cache: native PATH=C:\cygwin\usr\local\bin;C:\cygwin\bin;C:\cygwin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem
+  164   30301 [main] nano 2612 posify: env var converted to PATH=/cygdrive/c/cygwin/usr/local/bin:/cygdrive/c/cygwin/bin:/cygdrive/c/cygwin/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem
+  368   30669 [main] nano 2612 environ_init: 0x4C8908: PATH=/cygdrive/c/cygwin/usr/local/bin:/cygdrive/c/cygwin/bin:/cygdrive/c/cygwin/bin:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem
+  237   30906 [main] nano 2612 environ_init: 0x4B8768: PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+  235   31141 [main] nano 2612 environ_init: 0x4B87A8: PROCESSOR_ARCHITECTURE=x86
+  237   31378 [main] nano 2612 environ_init: 0x4C89B8: PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+  236   31614 [main] nano 2612 environ_init: 0x4B87C8: PROCESSOR_LEVEL=6
+  236   31850 [main] nano 2612 environ_init: 0x4C8A08: PROCESSOR_REVISION=170a
+  238   32088 [main] nano 2612 environ_init: 0x4C8A28: PROGRAMFILES=C:\Program Files
+  236   32324 [main] nano 2612 environ_init: 0x4C8A50: PROMPT=$P$G
+  238   32562 [main] nano 2612 environ_init: 0x4C8A68: PS1=\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ 
+  238   32800 [main] nano 2612 environ_init: 0x4C8AB0: PWD=/home/chrisa/nano
+  233   33033 [main] nano 2612 environ_init: 0x4C8AD0: SESSIONNAME=Console
+  233   33266 [main] nano 2612 environ_init: 0x4C8AF0: SHLVL=1
+  233   33499 [main] nano 2612 environ_init: 0x4C8B00: SYSTEMDRIVE=C:
+  233   33732 [main] nano 2612 environ_init: 0x4C8B18: SYSTEMROOT=C:\WINDOWS
+  246   33978 [main] nano 2612 environ_init: 0x4C8B38: TERM=cygwin
+  235   34213 [main] nano 2612 environ_init: 0x4C8B50: TEXDOCVIEW_dvi=cygstart %s
+  234   34447 [main] nano 2612 environ_init: 0x4C8B70: TEXDOCVIEW_html=cygstart %s
+  234   34681 [main] nano 2612 environ_init: 0x4C8B98: TEXDOCVIEW_pdf=cygstart %s
+  234   34915 [main] nano 2612 environ_init: 0x4C8BB8: TEXDOCVIEW_ps=cygstart %s
+  234   35149 [main] nano 2612 environ_init: 0x4C8BD8: TEXDOCVIEW_txt=cygstart %s
+  232   35381 [main] nano 2612 environ_init: 0x4C8BF8: USER=chrisa
+  265   35646 [main] nano 2612 environ_init: 0x4C8C10: USERDOMAIN=VBOX
+  232   35878 [main] nano 2612 environ_init: 0x4C8C28: USERNAME=chrisa
+  232   36110 [main] nano 2612 environ_init: 0x4C8C40: USERPROFILE=C:\Documents and Settings\chrisa
+  232   36342 [main] nano 2612 environ_init: 0x4C8C78: WINDIR=C:\WINDOWS
+  231   36573 [main] nano 2612 environ_init: 0x4C8C90: _=/usr/bin/strace
+  172   36745 [main] nano 2612 pinfo_init: Set nice to 0
+  120   36865 [main] nano 2612 pinfo_init: pid 2612, pgid 2612
+  245   37110 [main] nano 2612 dtable::extend: size 32, fds 0x6123A784
+  268   37378 [main] nano 2612 etc::test_file_change: NtQueryFullAttributesFile (\??\C:\cygwin\home\chrisa\etc\group) failed, 0xC000003A
+  603   37981 [main] nano 2612 pwdgrp::load: \etc\group load failed
+  126   38107 [main] nano 2612 pwdgrp::read_group: Completing /etc/group: mkgroup:S-1-5-21-1708537768-2111687655-1801674531-513:0:chrisa
+  395   38502 [main] nano 2612 cygheap_user::ontherange: what 2, pw 0x4900A8
+  156   38658 [main] nano 2612 cygheap_user::ontherange: HOME is already in the environment /
+  121   38779 [main] nano 2612 wait_for_sigthread: wait_sig_inited 0x774
+  127   38906 [main] nano 2612 wait_for_sigthread: process/signal handling enabled, state 0x41
+  826   39732 [main] nano 2612 build_argv: argv[0] = 'nano'
+  114   39846 [main] nano 2612 build_argv: argc 1
+  433   40279 [main] nano 2612 build_fh_pc: fh 0x6123A8DC
+  208   40487 [main] nano 2612 open_shared: name (null), n 0, shared 0x60FD0000 (wanted 0x60FD0000), h 0x774
+  182   40669 [main] nano 2612 _pinfo::set_ctty: old no ctty
+  120   40789 [main] nano 2612 _pinfo::set_ctty: attaching ctty /dev/console sid 2612, pid 2612, pgid 2612, tty->pgid 0, tty->sid 2612
+  527   41316 [main] nano 2612 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+  136   41452 [main] nano 2612 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  120   41572 [main] nano 2612 fhandler_base::set_flags: filemode set to binary
+  499   42071 [main] nano 2612 init_cygheap::manage_console_count: fhandler_console::open: console_count 1, amount 1, ctty /dev/console, avoid_freeing_console 0
+  226   42297 [main] nano 2612 fhandler_console::open: opened conin$ 0x23, conout$ 0x27
+  178   42475 [main] nano 2612 fhandler_console::output_tcsetattr: 0 = tcsetattr (,60FD001C) (ENABLE FLAGS 3) (lflag 107 oflag 9)
+  321   42796 [main] nano 2612 build_fh_pc: fh 0x6123AB34
+  119   42915 [main] nano 2612 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+  119   43034 [main] nano 2612 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  120   43154 [main] nano 2612 fhandler_base::set_flags: filemode set to binary
+  207   43361 [main] nano 2612 init_cygheap::manage_console_count: fhandler_console::open: console_count 2, amount 1, ctty /dev/console, avoid_freeing_console 0
+  192   43553 [main] nano 2612 fhandler_console::open: opened conin$ 0xB, conout$ 0x2B
+  175   43728 [main] nano 2612 fhandler_console::output_tcsetattr: 0 = tcsetattr (,60FD001C) (ENABLE FLAGS 3) (lflag 107 oflag 9)
+  332   44060 [main] nano 2612 build_fh_pc: fh 0x6123AD8C
+  119   44179 [main] nano 2612 fhandler_base::set_flags: flags 0x10002, supplied_bin 0x0
+  114   44293 [main] nano 2612 fhandler_base::set_flags: O_TEXT/O_BINARY set in flags 0x10000
+  115   44408 [main] nano 2612 fhandler_base::set_flags: filemode set to binary
+  200   44608 [main] nano 2612 init_cygheap::manage_console_count: fhandler_console::open: console_count 3, amount 1, ctty /dev/console, avoid_freeing_console 0
+  170   44778 [main] nano 2612 fhandler_console::open: opened conin$ 0x13, conout$ 0x2F
+  169   44947 [main] nano 2612 fhandler_console::output_tcsetattr: 0 = tcsetattr (,60FD001C) (ENABLE FLAGS 3) (lflag 107 oflag 9)
+  326   45273 [main] nano 2612 fhandler_console::need_invisible: invisible_console 0
+  764   46037 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\cygwin\home\chrisa\nano\cygiconv-2.dll, keep-rel, no-add-slash)
+  126   46163 [main] nano 2612 normalize_win32_path: C:\cygwin\home\chrisa\nano\cygiconv-2.dll = normalize_win32_path (C:\cygwin\home\chrisa\nano\cygiconv-2.dll)
+  260   46423 [main] nano 2612 mount_info::conv_to_posix_path: /nano/cygiconv-2.dll = conv_to_posix_path (C:\cygwin\home\chrisa\nano\cygiconv-2.dll)
+  247   46670 [main] nano 2612 mount_info::conv_to_posix_path: conv_to_posix_path (C:\cygwin\home\chrisa\nano\cygintl-8.dll, keep-rel, no-add-slash)
+  121   46791 [main] nano 2612 normalize_win32_path: C:\cygwin\home\chrisa\nano\cygintl-8.dll = normalize_win32_path (C:\cygwin\home\chrisa\nano\cygintl-8.dll)
+  121   46912 [main] nano 2612 mount_info::conv_to_posix_path: /nano/cygintl-8.dll = conv_to_posix_path (C:\cygwin\home\chrisa\nano\cygintl-8.dll)
+  233   47145 [main] nano 2612 dll_crt0_1: user_data->main 0x410290
+  119   47264 [main] nano 2612 __set_errno: void dll_crt0_1(void*):959 val 0
+ 1391   48655 [main] nano 2612 __get_lcid_from_locale: LCID=0x0000
+  457   49112 [main] nano 2612 __get_lcid_from_locale: LCID=0x0000
+  374   49486 [main] nano 2612 __get_lcid_from_locale: LCID=0x0000
+  344   49830 [main] nano 2612 __get_lcid_from_locale: LCID=0x0000
+  345   50175 [main] nano 2612 __get_lcid_from_locale: LCID=0x0000
+10219   60394 [main] nano 2612 open: open (/usr/share/locale/locale.alias, 0x0)
+  125   60519 [main] nano 2612 normalize_posix_path: src /usr/share/locale/locale.alias
+  117   60636 [main] nano 2612 normalize_posix_path: /usr/share/locale/locale.alias = normalize_posix_path (/usr/share/locale/locale.alias)
+  115   60751 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/share/locale/locale.alias)
+  186   60937 [main] nano 2612 set_flags: flags: binary (0x2)
+  123   61060 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/share/locale/locale.alias, dst C:\cygwin\home\chrisa\usr\share\locale\locale.alias, flags 0x3000A, rc 0
+  168   61228 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\share\locale\locale.alias)
+  120   61348 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\share\locale\locale.alias)
+  122   61470 [main] nano 2612 symlink_info::check: not a symlink
+  119   61589 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\share\locale\locale.alias, 0x22B1A0) (0x3000A)
+  121   61710 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/share/locale)
+  120   61830 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   61950 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/share/locale, dst C:\cygwin\home\chrisa\usr\share\locale, flags 0x3000A, rc 0
+  155   62105 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\share\locale)
+  123   62228 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\share\locale)
+  121   62349 [main] nano 2612 symlink_info::check: not a symlink
+  119   62468 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\share\locale, 0x22B1A0) (0x3000A)
+  121   62589 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/share)
+  166   62755 [main] nano 2612 set_flags: flags: binary (0x2)
+  121   62876 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/share, dst C:\cygwin\home\chrisa\usr\share, flags 0x3000A, rc 0
+  154   63030 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\share)
+  123   63153 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\share)
+  120   63273 [main] nano 2612 symlink_info::check: not a symlink
+  120   63393 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\share, 0x22B1A0) (0x3000A)
+  120   63513 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  120   63633 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   63753 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  187   63940 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  123   64063 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  153   64216 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  151   64367 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  121   64488 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B1A0) (0x3000A)
+  407   64895 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\share\locale\locale.alias), has_acls(1)
+  215   65110 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  175   65285 [main] nano 2612 fhandler_base::open: (\??\C:\cygwin\home\chrisa\usr\share\locale\locale.alias, 0x100000)
+  200   65485 [main] nano 2612 seterrno_from_nt_status: /ext/build/netrel/src/cygwin-1.7.7-1/winsup/cygwin/fhandler.cc:590 status 0xC000003A -> windows error 3
+  156   65641 [main] nano 2612 geterrno_from_win_error: windows error 3 == errno 2
+  120   65761 [main] nano 2612 fhandler_base::open: C000003A = NtCreateFile (0x0, 80100000, \??\C:\cygwin\home\chrisa\usr\share\locale\locale.alias, io, NULL, 0, 7, 1, 4020, NULL, 0)
+  122   65883 [main] nano 2612 fhandler_base::open: 0 = fhandler_base::open (\??\C:\cygwin\home\chrisa\usr\share\locale\locale.alias, 0x100000)
+  121   66004 [main] nano 2612 fhandler_base::open_fs: 0 = fhandler_disk_file::open (\??\C:\cygwin\home\chrisa\usr\share\locale\locale.alias, 0x0)
+  169   66173 [main] nano 2612 open: -1 = open (/usr/share/locale/locale.alias, 0x0)
+ 1358   67531 [main] nano 2612 open: open (/usr/local/share/locale/locale.alias, 0x0)
+  120   67651 [main] nano 2612 normalize_posix_path: src /usr/local/share/locale/locale.alias
+  124   67775 [main] nano 2612 normalize_posix_path: /usr/local/share/locale/locale.alias = normalize_posix_path (/usr/local/share/locale/locale.alias)
+  120   67895 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/locale.alias)
+  120   68015 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   68135 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/locale.alias, dst C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias, flags 0x3000A, rc 0
+  157   68292 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias)
+  123   68415 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias)
+  122   68537 [main] nano 2612 symlink_info::check: not a symlink
+  119   68656 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias, 0x22B190) (0x3000A)
+  120   68776 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale)
+  120   68896 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   69016 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale, dst C:\cygwin\home\chrisa\usr\local\share\locale, flags 0x3000A, rc 0
+  163   69179 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  124   69303 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  138   69441 [main] nano 2612 symlink_info::check: not a symlink
+   82   69523 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale, 0x22B190) (0x3000A)
+  920   70443 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share)
+  121   70564 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   70684 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share, dst C:\cygwin\home\chrisa\usr\local\share, flags 0x3000A, rc 0
+  154   70838 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share)
+  157   70995 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share)
+  121   71116 [main] nano 2612 symlink_info::check: not a symlink
+  119   71235 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share, 0x22B190) (0x3000A)
+  120   71355 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local)
+  121   71476 [main] nano 2612 set_flags: flags: binary (0x2)
+  150   71626 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local, dst C:\cygwin\home\chrisa\usr\local, flags 0x3000A, rc 0
+  161   71787 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local)
+  129   71916 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local)
+  121   72037 [main] nano 2612 symlink_info::check: not a symlink
+  119   72156 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local, 0x22B190) (0x3000A)
+  116   72272 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  115   72387 [main] nano 2612 set_flags: flags: binary (0x2)
+  115   72502 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  149   72651 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  118   72769 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  148   72917 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  118   73035 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  116   73151 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B190) (0x3000A)
+  296   73447 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias), has_acls(1)
+  122   73569 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  118   73687 [main] nano 2612 fhandler_base::open: (\??\C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias, 0x100000)
+  148   73835 [main] nano 2612 seterrno_from_nt_status: /ext/build/netrel/src/cygwin-1.7.7-1/winsup/cygwin/fhandler.cc:590 status 0xC000003A -> windows error 3
+  118   73953 [main] nano 2612 geterrno_from_win_error: windows error 3 == errno 2
+  115   74068 [main] nano 2612 fhandler_base::open: C000003A = NtCreateFile (0x0, 80100000, \??\C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias, io, NULL, 0, 7, 1, 4020, NULL, 0)
+  117   74185 [main] nano 2612 fhandler_base::open: 0 = fhandler_base::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias, 0x100000)
+  122   74307 [main] nano 2612 fhandler_base::open_fs: 0 = fhandler_disk_file::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\locale.alias, 0x0)
+  122   74429 [main] nano 2612 open: -1 = open (/usr/local/share/locale/locale.alias, 0x0)
+ 1011   75440 [main] nano 2612 open: open (/usr/X11R6/lib/X11/locale/locale.alias, 0x0)
+  120   75560 [main] nano 2612 normalize_posix_path: src /usr/X11R6/lib/X11/locale/locale.alias
+  121   75681 [main] nano 2612 normalize_posix_path: /usr/X11R6/lib/X11/locale/locale.alias = normalize_posix_path (/usr/X11R6/lib/X11/locale/locale.alias)
+  120   75801 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/X11R6/lib/X11/locale/locale.alias)
+  120   75921 [main] nano 2612 set_flags: flags: binary (0x2)
+  133   76054 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/X11R6/lib/X11/locale/locale.alias, dst C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias, flags 0x3000A, rc 0
+  156   76210 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias)
+  124   76334 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias)
+  154   76488 [main] nano 2612 symlink_info::check: not a symlink
+  120   76608 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias, 0x22B190) (0x3000A)
+  121   76729 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/X11R6/lib/X11/locale)
+  119   76848 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   76968 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/X11R6/lib/X11/locale, dst C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale, flags 0x3000A, rc 0
+  155   77123 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale)
+  123   77246 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale)
+  121   77367 [main] nano 2612 symlink_info::check: not a symlink
+  119   77486 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale, 0x22B190) (0x3000A)
+  120   77606 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/X11R6/lib/X11)
+  120   77726 [main] nano 2612 set_flags: flags: binary (0x2)
+  119   77845 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/X11R6/lib/X11, dst C:\cygwin\home\chrisa\usr\X11R6\lib\X11, flags 0x3000A, rc 0
+  153   77998 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11)
+  123   78121 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11)
+  121   78242 [main] nano 2612 symlink_info::check: not a symlink
+  122   78364 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\X11R6\lib\X11, 0x22B190) (0x3000A)
+  121   78485 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/X11R6/lib)
+  120   78605 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   78725 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/X11R6/lib, dst C:\cygwin\home\chrisa\usr\X11R6\lib, flags 0x3000A, rc 0
+  154   78879 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\X11R6\lib)
+  123   79002 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\X11R6\lib)
+  120   79122 [main] nano 2612 symlink_info::check: not a symlink
+  120   79242 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\X11R6\lib, 0x22B190) (0x3000A)
+  120   79362 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/X11R6)
+  191   79553 [main] nano 2612 set_flags: flags: binary (0x2)
+  127   79680 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/X11R6, dst C:\cygwin\home\chrisa\usr\X11R6, flags 0x3000A, rc 0
+  154   79834 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\X11R6)
+  123   79957 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\X11R6)
+  120   80077 [main] nano 2612 symlink_info::check: not a symlink
+  119   80196 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\X11R6, 0x22B190) (0x3000A)
+  120   80316 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  120   80436 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   80556 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  152   80708 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  123   80831 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  153   80984 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  122   81106 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  272   81378 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B190) (0x3000A)
+  332   81710 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias), has_acls(1)
+  125   81835 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  123   81958 [main] nano 2612 fhandler_base::open: (\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias, 0x100000)
+  153   82111 [main] nano 2612 seterrno_from_nt_status: /ext/build/netrel/src/cygwin-1.7.7-1/winsup/cygwin/fhandler.cc:590 status 0xC000003A -> windows error 3
+  123   82234 [main] nano 2612 geterrno_from_win_error: windows error 3 == errno 2
+  120   82354 [main] nano 2612 fhandler_base::open: C000003A = NtCreateFile (0x0, 80100000, \??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias, io, NULL, 0, 7, 1, 4020, NULL, 0)
+  122   82476 [main] nano 2612 fhandler_base::open: 0 = fhandler_base::open (\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias, 0x100000)
+  121   82597 [main] nano 2612 fhandler_base::open_fs: 0 = fhandler_disk_file::open (\??\C:\cygwin\home\chrisa\usr\X11R6\lib\X11\locale\locale.alias, 0x0)
+  122   82719 [main] nano 2612 open: -1 = open (/usr/X11R6/lib/X11/locale/locale.alias, 0x0)
+ 3021   85740 [main] nano 2612 open: open (/usr/local/share/locale/C.UTF-8/LC_MESSAGES/nano.mo, 0x10000)
+  117   85857 [main] nano 2612 normalize_posix_path: src /usr/local/share/locale/C.UTF-8/LC_MESSAGES/nano.mo
+  117   85974 [main] nano 2612 normalize_posix_path: /usr/local/share/locale/C.UTF-8/LC_MESSAGES/nano.mo = normalize_posix_path (/usr/local/share/locale/C.UTF-8/LC_MESSAGES/nano.mo)
+  128   86102 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C.UTF-8/LC_MESSAGES/nano.mo)
+  117   86219 [main] nano 2612 set_flags: flags: binary (0x2)
+  115   86334 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C.UTF-8/LC_MESSAGES/nano.mo, dst C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo, flags 0x3000A, rc 0
+  153   86487 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo)
+  120   86607 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo)
+  117   86724 [main] nano 2612 symlink_info::check: not a symlink
+  114   86838 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo, 0x22B350) (0x3000A)
+  116   86954 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C.UTF-8/LC_MESSAGES)
+  115   87069 [main] nano 2612 set_flags: flags: binary (0x2)
+  115   87184 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C.UTF-8/LC_MESSAGES, dst C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES, flags 0x3000A, rc 0
+  150   87334 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES)
+  123   87457 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES)
+  121   87578 [main] nano 2612 symlink_info::check: not a symlink
+  119   87697 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES, 0x22B350) (0x3000A)
+  120   87817 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C.UTF-8)
+  120   87937 [main] nano 2612 set_flags: flags: binary (0x2)
+  119   88056 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C.UTF-8, dst C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8, flags 0x3000A, rc 0
+  154   88210 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8)
+  155   88365 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8)
+  126   88491 [main] nano 2612 symlink_info::check: not a symlink
+  119   88610 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8, 0x22B350) (0x3000A)
+  121   88731 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale)
+  120   88851 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   88971 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale, dst C:\cygwin\home\chrisa\usr\local\share\locale, flags 0x3000A, rc 0
+  154   89125 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  124   89249 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  121   89370 [main] nano 2612 symlink_info::check: not a symlink
+  119   89489 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale, 0x22B350) (0x3000A)
+  119   89608 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share)
+  121   89729 [main] nano 2612 set_flags: flags: binary (0x2)
+  119   89848 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share, dst C:\cygwin\home\chrisa\usr\local\share, flags 0x3000A, rc 0
+  153   90001 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share)
+  124   90125 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share)
+  120   90245 [main] nano 2612 symlink_info::check: not a symlink
+  119   90364 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share, 0x22B350) (0x3000A)
+  120   90484 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local)
+  120   90604 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   90724 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local, dst C:\cygwin\home\chrisa\usr\local, flags 0x3000A, rc 0
+  152   90876 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local)
+  123   90999 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local)
+  120   91119 [main] nano 2612 symlink_info::check: not a symlink
+  119   91238 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local, 0x22B350) (0x3000A)
+  119   91357 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  120   91477 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   91597 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  152   91749 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  123   91872 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  153   92025 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  123   92148 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  121   92269 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B350) (0x3000A)
+  354   92623 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo), has_acls(1)
+  125   92748 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  123   92871 [main] nano 2612 fhandler_base::open: (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo, 0x110000)
+  153   93024 [main] nano 2612 seterrno_from_nt_status: /ext/build/netrel/src/cygwin-1.7.7-1/winsup/cygwin/fhandler.cc:590 status 0xC000003A -> windows error 3
+  123   93147 [main] nano 2612 geterrno_from_win_error: windows error 3 == errno 2
+  152   93299 [main] nano 2612 fhandler_base::open: C000003A = NtCreateFile (0x0, 80100000, \??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo, io, NULL, 0, 7, 1, 4020, NULL, 0)
+  123   93422 [main] nano 2612 fhandler_base::open: 0 = fhandler_base::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo, 0x110000)
+  122   93544 [main] nano 2612 fhandler_base::open_fs: 0 = fhandler_disk_file::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.UTF-8\LC_MESSAGES\nano.mo, 0x10000)
+  122   93666 [main] nano 2612 open: -1 = open (/usr/local/share/locale/C.UTF-8/LC_MESSAGES/nano.mo, 0x10000)
+  345   94011 [main] nano 2612 open: open (/usr/local/share/locale/C.utf8/LC_MESSAGES/nano.mo, 0x10000)
+  119   94130 [main] nano 2612 normalize_posix_path: src /usr/local/share/locale/C.utf8/LC_MESSAGES/nano.mo
+  120   94250 [main] nano 2612 normalize_posix_path: /usr/local/share/locale/C.utf8/LC_MESSAGES/nano.mo = normalize_posix_path (/usr/local/share/locale/C.utf8/LC_MESSAGES/nano.mo)
+  120   94370 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C.utf8/LC_MESSAGES/nano.mo)
+  121   94491 [main] nano 2612 set_flags: flags: binary (0x2)
+  119   94610 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C.utf8/LC_MESSAGES/nano.mo, dst C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo, flags 0x3000A, rc 0
+  156   94766 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo)
+  124   94890 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo)
+  121   95011 [main] nano 2612 symlink_info::check: not a symlink
+  119   95130 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo, 0x22B350) (0x3000A)
+  121   95251 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C.utf8/LC_MESSAGES)
+  120   95371 [main] nano 2612 set_flags: flags: binary (0x2)
+  119   95490 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C.utf8/LC_MESSAGES, dst C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES, flags 0x3000A, rc 0
+  154   95644 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES)
+  124   95768 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES)
+  121   95889 [main] nano 2612 symlink_info::check: not a symlink
+  119   96008 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES, 0x22B350) (0x3000A)
+  133   96141 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C.utf8)
+  120   96261 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   96381 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C.utf8, dst C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8, flags 0x3000A, rc 0
+  153   96534 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8)
+  123   96657 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8)
+  121   96778 [main] nano 2612 symlink_info::check: not a symlink
+  119   96897 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8, 0x22B350) (0x3000A)
+  120   97017 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale)
+  121   97138 [main] nano 2612 set_flags: flags: binary (0x2)
+  119   97257 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale, dst C:\cygwin\home\chrisa\usr\local\share\locale, flags 0x3000A, rc 0
+  186   97443 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  123   97566 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  121   97687 [main] nano 2612 symlink_info::check: not a symlink
+  119   97806 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale, 0x22B350) (0x3000A)
+  120   97926 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share)
+  120   98046 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   98166 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share, dst C:\cygwin\home\chrisa\usr\local\share, flags 0x3000A, rc 0
+  153   98319 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share)
+  128   98447 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share)
+  120   98567 [main] nano 2612 symlink_info::check: not a symlink
+  119   98686 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share, 0x22B350) (0x3000A)
+  120   98806 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local)
+  120   98926 [main] nano 2612 set_flags: flags: binary (0x2)
+  120   99046 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local, dst C:\cygwin\home\chrisa\usr\local, flags 0x3000A, rc 0
+  153   99199 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local)
+  123   99322 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local)
+  121   99443 [main] nano 2612 symlink_info::check: not a symlink
+  119   99562 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local, 0x22B350) (0x3000A)
+  120   99682 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  120   99802 [main] nano 2612 set_flags: flags: binary (0x2)
+  119   99921 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  154  100075 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  122  100197 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  153  100350 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  123  100473 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  121  100594 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B350) (0x3000A)
+  179  100773 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo), has_acls(1)
+  641  101414 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  177  101591 [main] nano 2612 fhandler_base::open: (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo, 0x110000)
+  154  101745 [main] nano 2612 seterrno_from_nt_status: /ext/build/netrel/src/cygwin-1.7.7-1/winsup/cygwin/fhandler.cc:590 status 0xC000003A -> windows error 3
+  124  101869 [main] nano 2612 geterrno_from_win_error: windows error 3 == errno 2
+  114  101983 [main] nano 2612 fhandler_base::open: C000003A = NtCreateFile (0x0, 80100000, \??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo, io, NULL, 0, 7, 1, 4020, NULL, 0)
+  118  102101 [main] nano 2612 fhandler_base::open: 0 = fhandler_base::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo, 0x110000)
+  117  102218 [main] nano 2612 fhandler_base::open_fs: 0 = fhandler_disk_file::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C.utf8\LC_MESSAGES\nano.mo, 0x10000)
+  117  102335 [main] nano 2612 open: -1 = open (/usr/local/share/locale/C.utf8/LC_MESSAGES/nano.mo, 0x10000)
+  366  102701 [main] nano 2612 open: open (/usr/local/share/locale/C/LC_MESSAGES/nano.mo, 0x10000)
+  115  102816 [main] nano 2612 normalize_posix_path: src /usr/local/share/locale/C/LC_MESSAGES/nano.mo
+  115  102931 [main] nano 2612 normalize_posix_path: /usr/local/share/locale/C/LC_MESSAGES/nano.mo = normalize_posix_path (/usr/local/share/locale/C/LC_MESSAGES/nano.mo)
+  116  103047 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C/LC_MESSAGES/nano.mo)
+  115  103162 [main] nano 2612 set_flags: flags: binary (0x2)
+  116  103278 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C/LC_MESSAGES/nano.mo, dst C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo, flags 0x3000A, rc 0
+  151  103429 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo)
+  119  103548 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo)
+  117  103665 [main] nano 2612 symlink_info::check: not a symlink
+  119  103784 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo, 0x22B350) (0x3000A)
+  121  103905 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C/LC_MESSAGES)
+  120  104025 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  104145 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C/LC_MESSAGES, dst C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES, flags 0x3000A, rc 0
+  154  104299 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES)
+  124  104423 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES)
+  121  104544 [main] nano 2612 symlink_info::check: not a symlink
+  119  104663 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES, 0x22B350) (0x3000A)
+  120  104783 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale/C)
+  120  104903 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  105023 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale/C, dst C:\cygwin\home\chrisa\usr\local\share\locale\C, flags 0x3000A, rc 0
+  154  105177 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale\C)
+  123  105300 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C)
+  121  105421 [main] nano 2612 symlink_info::check: not a symlink
+  130  105551 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale\C, 0x22B350) (0x3000A)
+  125  105676 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share/locale)
+  120  105796 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  105916 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share/locale, dst C:\cygwin\home\chrisa\usr\local\share\locale, flags 0x3000A, rc 0
+  153  106069 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  124  106193 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share\locale)
+  121  106314 [main] nano 2612 symlink_info::check: not a symlink
+  131  106445 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share\locale, 0x22B350) (0x3000A)
+  121  106566 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/share)
+  120  106686 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  106806 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/share, dst C:\cygwin\home\chrisa\usr\local\share, flags 0x3000A, rc 0
+  185  106991 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\share)
+  124  107115 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\share)
+  121  107236 [main] nano 2612 symlink_info::check: not a symlink
+  119  107355 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\share, 0x22B350) (0x3000A)
+  120  107475 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local)
+  120  107595 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  107715 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local, dst C:\cygwin\home\chrisa\usr\local, flags 0x3000A, rc 0
+  152  107867 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local)
+  123  107990 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local)
+  121  108111 [main] nano 2612 symlink_info::check: not a symlink
+  119  108230 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local, 0x22B350) (0x3000A)
+  120  108350 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  121  108471 [main] nano 2612 set_flags: flags: binary (0x2)
+  118  108589 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  158  108747 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  123  108870 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  153  109023 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  122  109145 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  121  109266 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B350) (0x3000A)
+  353  109619 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo), has_acls(1)
+  125  109744 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  123  109867 [main] nano 2612 fhandler_base::open: (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo, 0x110000)
+  153  110020 [main] nano 2612 seterrno_from_nt_status: /ext/build/netrel/src/cygwin-1.7.7-1/winsup/cygwin/fhandler.cc:590 status 0xC000003A -> windows error 3
+  123  110143 [main] nano 2612 geterrno_from_win_error: windows error 3 == errno 2
+  119  110262 [main] nano 2612 fhandler_base::open: C000003A = NtCreateFile (0x0, 80100000, \??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo, io, NULL, 0, 7, 1, 4020, NULL, 0)
+  122  110384 [main] nano 2612 fhandler_base::open: 0 = fhandler_base::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo, 0x110000)
+  122  110506 [main] nano 2612 fhandler_base::open_fs: 0 = fhandler_disk_file::open (\??\C:\cygwin\home\chrisa\usr\local\share\locale\C\LC_MESSAGES\nano.mo, 0x10000)
+  122  110628 [main] nano 2612 open: -1 = open (/usr/local/share/locale/C/LC_MESSAGES/nano.mo, 0x10000)
+24431  135059 [main] nano 2612 stat64: entering
+  117  135176 [main] nano 2612 normalize_posix_path: src /usr/local/etc/nanorc
+  115  135291 [main] nano 2612 normalize_posix_path: /usr/local/etc/nanorc = normalize_posix_path (/usr/local/etc/nanorc)
+  120  135411 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/etc/nanorc)
+  121  135532 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  135652 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/etc/nanorc, dst C:\cygwin\home\chrisa\usr\local\etc\nanorc, flags 0x3000A, rc 0
+  159  135811 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc)
+  124  135935 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc)
+  154  136089 [main] nano 2612 symlink_info::check: not a symlink
+  120  136209 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\etc\nanorc, 0x22B6F0) (0x43000A)
+  120  136329 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/etc)
+  120  136449 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  136569 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/etc, dst C:\cygwin\home\chrisa\usr\local\etc, flags 0x3000A, rc 0
+  153  136722 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\etc)
+  124  136846 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\etc)
+  120  136966 [main] nano 2612 symlink_info::check: not a symlink
+  119  137085 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\etc, 0x22B6F0) (0x3000A)
+  121  137206 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local)
+  133  137339 [main] nano 2612 set_flags: flags: binary (0x2)
+  119  137458 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local, dst C:\cygwin\home\chrisa\usr\local, flags 0x3000A, rc 0
+  153  137611 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local)
+  124  137735 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local)
+  120  137855 [main] nano 2612 symlink_info::check: not a symlink
+  119  137974 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local, 0x22B6F0) (0x3000A)
+  120  138094 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  120  138214 [main] nano 2612 set_flags: flags: binary (0x2)
+  119  138333 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  153  138486 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  123  138609 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  153  138762 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  123  138885 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  120  139005 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B6F0) (0x3000A)
+  280  139285 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\local\etc\nanorc), has_acls(1)
+  124  139409 [main] nano 2612 __set_errno: int stat_worker(path_conv&, __stat64*):1538 val 2
+  125  139534 [main] nano 2612 stat_worker: -1 = (\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc, 0x22C9D0)
+  567  140101 [main] nano 2612 open: open (/usr/local/etc/nanorc, 0x10000)
+  120  140221 [main] nano 2612 normalize_posix_path: src /usr/local/etc/nanorc
+  120  140341 [main] nano 2612 normalize_posix_path: /usr/local/etc/nanorc = normalize_posix_path (/usr/local/etc/nanorc)
+  120  140461 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/etc/nanorc)
+  120  140581 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  140701 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/etc/nanorc, dst C:\cygwin\home\chrisa\usr\local\etc\nanorc, flags 0x3000A, rc 0
+  155  140856 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc)
+  123  140979 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc)
+  122  141101 [main] nano 2612 symlink_info::check: not a symlink
+  119  141220 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\etc\nanorc, 0x22B540) (0x3000A)
+  120  141340 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local/etc)
+  153  141493 [main] nano 2612 set_flags: flags: binary (0x2)
+  121  141614 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local/etc, dst C:\cygwin\home\chrisa\usr\local\etc, flags 0x3000A, rc 0
+  153  141767 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local\etc)
+  124  141891 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local\etc)
+  121  142012 [main] nano 2612 symlink_info::check: not a symlink
+  119  142131 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local\etc, 0x22B540) (0x3000A)
+  120  142251 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr/local)
+  120  142371 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  142491 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr/local, dst C:\cygwin\home\chrisa\usr\local, flags 0x3000A, rc 0
+  152  142643 [main] nano 2612 symlink_info::check: 0xC000003A = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr\local)
+  123  142766 [main] nano 2612 symlink_info::check: 0xC000003A = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr\local)
+  120  142886 [main] nano 2612 symlink_info::check: not a symlink
+  119  143005 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr\local, 0x22B540) (0x3000A)
+  121  143126 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (/usr)
+  119  143245 [main] nano 2612 set_flags: flags: binary (0x2)
+  120  143365 [main] nano 2612 mount_info::conv_to_win32_path: src_path /usr, dst C:\cygwin\home\chrisa\usr, flags 0x3000A, rc 0
+  153  143518 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr)
+  123  143641 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr)
+  152  143793 [main] nano 2612 symlink_info::check: 0xC0000034 = NtCreateFile (1:\??\C:\cygwin\home\chrisa\usr.lnk)
+  123  143916 [main] nano 2612 symlink_info::check: 0xC0000034 = NtQueryInformationFile (\??\C:\cygwin\home\chrisa\usr.lnk)
+  121  144037 [main] nano 2612 symlink_info::check: 0 = symlink.check (C:\cygwin\home\chrisa\usr, 0x22B540) (0x3000A)
+  277  144314 [main] nano 2612 path_conv::check: this->path(C:\cygwin\home\chrisa\usr\local\etc\nanorc), has_acls(1)
+  125  144439 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  123  144562 [main] nano 2612 fhandler_base::open: (\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc, 0x110000)
+  152  144714 [main] nano 2612 seterrno_from_nt_status: /ext/build/netrel/src/cygwin-1.7.7-1/winsup/cygwin/fhandler.cc:590 status 0xC000003A -> windows error 3
+  123  144837 [main] nano 2612 geterrno_from_win_error: windows error 3 == errno 2
+  121  144958 [main] nano 2612 fhandler_base::open: C000003A = NtCreateFile (0x0, 80100000, \??\C:\cygwin\home\chrisa\usr\local\etc\nanorc, io, NULL, 0, 7, 1, 4020, NULL, 0)
+  121  145079 [main] nano 2612 fhandler_base::open: 0 = fhandler_base::open (\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc, 0x110000)
+  121  145200 [main] nano 2612 fhandler_base::open_fs: 0 = fhandler_disk_file::open (\??\C:\cygwin\home\chrisa\usr\local\etc\nanorc, 0x10000)
+  122  145322 [main] nano 2612 open: -1 = open (/usr/local/etc/nanorc, 0x10000)
+  964  146286 [main] nano 2612 stat64: entering
+  124  146410 [main] nano 2612 normalize_posix_path: src //nano.rc
+  120  146530 [main] nano 2612 normalize_posix_path: //nano.rc = normalize_posix_path (//nano.rc)
+  119  146649 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (//nano.rc)
+  191  146840 [main] nano 2612 set_flags: flags: binary (0x2)
+  127  146967 [main] nano 2612 mount_info::conv_to_win32_path: src_path //nano.rc, dst \\nano.rc, flags 0x2, rc 0
+  169  147136 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+  512  147648 [WNetOpenEnum] nano 2612 cygthread::stub: thread 'WNetOpenEnum', id 0xFBC, stack_ptr 0x18D6CDC0
+--- Process 2612, exception 000006BA at 7C81EB33
+4547925 4695573 [main] nano 2612 stat_worker: got 2 error from path_conv
+  469 4696042 [main] nano 2612 __set_errno: int stat_worker(path_conv&, __stat64*):1513 val 2
+  136 4696178 [main] nano 2612 stat_worker: -1 = (\??\UNC\nano.rc, 0x22C9D0)
+  634 4696812 [main] nano 2612 open: open (//nano.rc, 0x10000)
+  128 4696940 [main] nano 2612 normalize_posix_path: src //nano.rc
+  127 4697067 [main] nano 2612 normalize_posix_path: //nano.rc = normalize_posix_path (//nano.rc)
+  147 4697214 [main] nano 2612 mount_info::conv_to_win32_path: conv_to_win32_path (//nano.rc)
+  124 4697338 [main] nano 2612 set_flags: flags: binary (0x2)
+  121 4697459 [main] nano 2612 mount_info::conv_to_win32_path: src_path //nano.rc, dst \\nano.rc, flags 0x2, rc 0
+  135 4697594 [main] nano 2612 build_fh_pc: fh 0x6123B18C
+--- Process 2612, exception 000006BA at 7C81EB33
+ 2134 4699728 [main] nano 2612 __set_errno: fhandler_base* build_fh_name(const char*, unsigned int, suffix_info*):423 val 2
+  130 4699858 [main] nano 2612 open: -1 = open (//nano.rc, 0x10000)
+ 3198 4703056 [main] nano 2612 fhandler_console::tcgetattr: 0 = tcgetattr (0x42F190) enable flags 0x1F, t->lflag 0x107, t->iflag 0x502
+   83 4703139 [main] nano 2612 tcgetattr: iflag 502, oflag 9, cflag BF, lflag 107, VMIN 1, VTIME 0
+14035 4717174 [main] nano 2612 fhandler_console::tcgetattr: 0 = tcgetattr (0x22C9F0) enable flags 0x80, t->lflag 0x107, t->iflag 0x502
+  161 4717335 [main] nano 2612 tcgetattr: iflag 502, oflag 9, cflag BF, lflag 107, VMIN 1, VTIME 0
+  154 4717489 [main] nano 2612 fhandler_console::output_tcsetattr: 0 = tcsetattr (,22C9F0) (ENABLE FLAGS 3) (lflag 7 oflag 8)
+  142 4717631 [main] nano 2612 fhandler_console::input_tcsetattr: 0 = tcsetattr (,22C9F0) enable flags 0x1F, c_lflag 0x7 iflag 0x502
+   83 4717714 [main] nano 2612 __set_errno: int tcsetattr(int, int, const termios*):158 val 2
+   82 4717796 [main] nano 2612 tcsetattr: iflag 0x502, oflag 0x8, cflag 0xBF, lflag 0x7, VMIN 1, VTIME 0
+   81 4717877 [main] nano 2612 tcsetattr: 0 = tcsetattr (0, 2, 22C9F0)
+   94 4717971 [main] nano 2612 fhandler_console::tcgetattr: 0 = tcgetattr (0x22CA00) enable flags 0x1F, t->lflag 0x7, t->iflag 0x502
+   76 4718047 [main] nano 2612 tcgetattr: iflag 502, oflag 8, cflag BF, lflag 7, VMIN 1, VTIME 0
+   93 4718140 [main] nano 2612 fhandler_console::output_tcsetattr: 0 = tcsetattr (,22CA00) (ENABLE FLAGS 3) (lflag 6 oflag 8)
+  111 4718251 [main] nano 2612 fhandler_console::input_tcsetattr: 0 = tcsetattr (,22CA00) enable flags 0x1E, c_lflag 0x6 iflag 0x502
+   76 4718327 [main] nano 2612 __set_errno: int tcsetattr(int, int, const termios*):158 val 2
+   75 4718402 [main] nano 2612 tcsetattr: iflag 0x502, oflag 0x8, cflag 0xBF, lflag 0x6, VMIN 1, VTIME 0
+   75 4718477 [main] nano 2612 tcsetattr: 0 = tcsetattr (0, 2, 22CA00)
+ 3115 4721592 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -34, its_me 1
+  111 4721703 [main] nano 2612 sig_send: wakeup 0x6B4
+  110 4721813 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+  229 4722042 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+  126 4722168 [main] nano 2612 sig_send: returning 0x0 from sending signal -34
+   82 4722250 [main] nano 2612 sigaction_worker: signal 2, newact 0x42F1C0 (handler 0x1), oa 0x0
+   79 4722329 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -2, its_me 1
+   87 4722416 [main] nano 2612 sig_send: wakeup 0x6B4
+   81 4722497 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   99 4722596 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   84 4722680 [main] nano 2612 sig_send: returning 0x0 from sending signal -2
+   79 4722759 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -34, its_me 1
+   80 4722839 [main] nano 2612 sig_send: wakeup 0x6B4
+   80 4722919 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   86 4723005 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   90 4723095 [main] nano 2612 sig_send: returning 0x0 from sending signal -34
+   79 4723174 [main] nano 2612 sigaction_worker: signal 3, newact 0x42F1C0 (handler 0x1), oa 0x0
+   82 4723256 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -3, its_me 1
+  257 4723513 [main] nano 2612 sig_send: wakeup 0x6B4
+   83 4723596 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   85 4723681 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   82 4723763 [main] nano 2612 sig_send: returning 0x0 from sending signal -3
+   77 4723840 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -34, its_me 1
+   78 4723918 [main] nano 2612 sig_send: wakeup 0x6B4
+   78 4723996 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   88 4724084 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   84 4724168 [main] nano 2612 sig_send: returning 0x0 from sending signal -34
+   79 4724247 [main] nano 2612 sigaction_worker: signal 1, newact 0x42F1C0 (handler 0x40F110), oa 0x0
+   81 4724328 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -34, its_me 1
+   81 4724409 [main] nano 2612 sig_send: wakeup 0x6B4
+   80 4724489 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   86 4724575 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   86 4724661 [main] nano 2612 sig_send: returning 0x0 from sending signal -34
+   79 4724740 [main] nano 2612 sigaction_worker: signal 15, newact 0x42F1C0 (handler 0x40F110), oa 0x0
+   80 4724820 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -34, its_me 1
+   81 4724901 [main] nano 2612 sig_send: wakeup 0x6B4
+   81 4724982 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   87 4725069 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   84 4725153 [main] nano 2612 sig_send: returning 0x0 from sending signal -34
+   80 4725233 [main] nano 2612 sigaction_worker: signal 28, newact 0x42F1C0 (handler 0x40F620), oa 0x0
+  113 4725346 [main] nano 2612 set_signal_mask: oldmask 0x0, newmask 0x8000000, mask_bits 0x0
+   83 4725429 [main] nano 2612 set_signal_mask: not calling sig_dispatch_pending
+   79 4725508 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -34, its_me 1
+   78 4725586 [main] nano 2612 sig_send: wakeup 0x6B4
+   78 4725664 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   82 4725746 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   27 4725773 [main] nano 2612 sig_send: returning 0x0 from sending signal -34
+  150 4725923 [main] nano 2612 sigaction_worker: signal 18, newact 0x42F1C0 (handler 0x1), oa 0x0
+   78 4726001 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -18, its_me 1
+   77 4726078 [main] nano 2612 sig_send: wakeup 0x6B4
+   79 4726157 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   87 4726244 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   84 4726328 [main] nano 2612 sig_send: returning 0x0 from sending signal -18
+17200 4743528 [main] nano 2612 set_signal_mask: oldmask 0x8000000, newmask 0x0, mask_bits 0x8000000
+  101 4743629 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -39, its_me 1
+   88 4743717 [main] nano 2612 sig_send: wakeup 0x6B4
+   87 4743804 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   88 4743892 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   74 4743966 [main] nano 2612 sig_send: returning 0x0 from sending signal -39
+   77 4744043 [main] nano 2612 set_signal_mask: oldmask 0x0, newmask 0x8000000, mask_bits 0x0
+   76 4744119 [main] nano 2612 set_signal_mask: not calling sig_dispatch_pending
+   77 4744196 [main] nano 2612 set_signal_mask: oldmask 0x8000000, newmask 0x0, mask_bits 0x8000000
+   77 4744273 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -39, its_me 1
+   79 4744352 [main] nano 2612 sig_send: wakeup 0x6B4
+   78 4744430 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+   83 4744513 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+   83 4744596 [main] nano 2612 sig_send: returning 0x0 from sending signal -39
+5810245 10554841 [main] nano 2612 set_signal_mask: oldmask 0x0, newmask 0x8000000, mask_bits 0x0
+  303 10555144 [main] nano 2612 set_signal_mask: not calling sig_dispatch_pending
+  257 10555401 [main] nano 2612 set_signal_mask: oldmask 0x8000000, newmask 0x0, mask_bits 0x8000000
+  187 10555588 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -39, its_me 1
+  140 10555728 [main] nano 2612 sig_send: wakeup 0x6B4
+  144 10555872 [main] nano 2612 sig_send: Waiting for pack.wakeup 0x6B4
+  155 10556027 [sig] nano 2612 wait_sig: signalling pack.wakeup 0x6B4
+  131 10556158 [main] nano 2612 sig_send: returning 0x0 from sending signal -39
+28990 10585148 [main] nano 2612 fhandler_console::output_tcsetattr: 0 = tcsetattr (,42F190) (ENABLE FLAGS 3) (lflag 107 oflag 9)
+  618 10585766 [main] nano 2612 __set_errno: int tcsetattr(int, int, const termios*):158 val 2
+  126 10585892 [main] nano 2612 tcsetattr: iflag 0x502, oflag 0x9, cflag 0xBF, lflag 0x107, VMIN 1, VTIME 0
+  124 10586016 [main] nano 2612 tcsetattr: 0 = tcsetattr (0, 2, 42F190)
+ 2641 10588657 [main] nano 2612 close: close (0)
+  241 10588898 [main] nano 2612 init_cygheap::manage_console_count: fhandler_console::close: console_count 2, amount -1, ctty /dev/console, avoid_freeing_console 0
+  129 10589027 [main] nano 2612 close: 0 = close (0)
+ 1372 10590399 [main] nano 2612 close: close (1)
+  122 10590521 [main] nano 2612 init_cygheap::manage_console_count: fhandler_console::close: console_count 1, amount -1, ctty /dev/console, avoid_freeing_console 0
+   83 10590604 [main] nano 2612 close: 0 = close (1)
+ 1251 10591855 [main] nano 2612 close: close (2)
+  131 10591986 [main] nano 2612 init_cygheap::manage_console_count: fhandler_console::close: console_count 0, amount -1, ctty /dev/console, avoid_freeing_console 0
+   84 10592070 [main] nano 2612 close: 0 = close (2)
+  649 10592719 [main] nano 2612 do_exit: do_exit (0), exit_state 1
+   85 10592804 [main] nano 2612 void: 0x0 = signal (20, 0x1)
+   84 10592888 [main] nano 2612 void: 0x40F110 = signal (1, 0x1)
+   83 10592971 [main] nano 2612 void: 0x1 = signal (2, 0x1)
+   83 10593054 [main] nano 2612 void: 0x1 = signal (3, 0x1)
+  225 10593279 [main] nano 2612 sigproc_terminate: entering
+   84 10593363 [main] nano 2612 sig_send: sendsig 0x734, pid 2612, signal -42, its_me 1
+  138 10593501 [main] nano 2612 sig_send: Not waiting for sigcomplete.  its_me 1 signal -42
+   82 10593583 [main] nano 2612 sig_send: returning 0x0 from sending signal -42
+   77 10593660 [main] nano 2612 proc_terminate: nprocs 0
+   77 10593737 [main] nano 2612 proc_terminate: leaving
+  113 10593850 [main] nano 2612 __to_clock_t: dwHighDateTime 0, dwLowDateTime 2812500
+   77 10593927 [main] nano 2612 __to_clock_t: total 00000000 00000119
+   78 10594005 [main] nano 2612 __to_clock_t: dwHighDateTime 0, dwLowDateTime 156250
+   76 10594081 [main] nano 2612 __to_clock_t: total 00000000 0000000F
+ 1272 10595353 [main] nano 2612 pinfo::exit: Calling ExitProcess n 0x0, exitcode 0x0
