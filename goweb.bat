@@ -1,2 +1,2 @@
 @echo off
-cd /d F:\wamp\www
+cd /d F:\wamp\www\%*
