@@ -3,7 +3,7 @@ setlocal EnableDelayedExpansion
 
 :: Print help instead of running.
 if "%1"=="/?" (
-    echo Usage: minify [^<filename^>]
+    echo Usage: minify [filename]
     echo.
     echo Combines all JS and CSS files in current and all subdirectories and minifies using jsmin and csstidy.
     goto:eof
