@@ -13,7 +13,7 @@ echo.
 echo Starting to minify...
 
 :: Pick an output file name.
-if not "%1"=="" (
+if not [%1]==[] (
     set fname=%1
 ) else (
     set fname=final
