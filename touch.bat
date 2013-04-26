@@ -9,4 +9,4 @@ if "%1"=="/?" (
 )
 
 :: http://ss64.com/nt/syntax-args.html
-echo.>%~1
+echo. > %1
