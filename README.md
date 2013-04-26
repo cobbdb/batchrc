@@ -2,6 +2,8 @@
 ### A collection of homegrown batch scripts to make Windows command line a bit more friendly.
 
 ---
+If a command has help text available, it will be shown via the ```/?``` flag.
+
 ### Installation
 
 ###### 1. Fork this repo.
