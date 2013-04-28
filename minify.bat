@@ -3,9 +3,9 @@ setlocal EnableDelayedExpansion
 
 :: Print help instead of running.
 if "%1"=="/?" (
-    echo Usage: minify [/?] [filename]
+    echo Usage: minify [/?] dir [filename]
     echo.
-    echo Combines all JS and CSS files in current and all subdirectories and minifies using jsmin and csstidy.
+    echo Combines all JS and CSS files in current and all subdirectories and minifies using jsmin and csstidy. Creates minified files in specified directory.
     goto:eof
 )
 
@@ -13,8 +13,8 @@ echo.
 echo Starting to minify...
 
 :: Pick an output file name.
-if not [%1]==[] (
-    set fname=%1
+if not [%2]==[] (
+    set fname=%2
 ) else (
     set fname=final
 )
@@ -40,14 +40,14 @@ echo.
 :: Minify js temp file.
 :: @see http://crockford.com/javascript/jsmin
 echo ^> Minifying JavaScript...
-C:\batchrc\progs\jsmin\jsmin < mini_temp.js > %fname%.min.js
+C:\batchrc\progs\jsmin\jsmin < mini_temp.js > %1\%fname%.min.js
 echo ^> ... done.
 echo.
 
 :: Minify css temp file.
 :: @see http://www.dotnetperls.com/minify-css
 echo ^> Minifying CSS...
-C:\batchrc\progs\csstidy-1.3-exe\csstidy mini_temp.css --template=highest %fname%.min.css
+C:\batchrc\progs\csstidy-1.3-exe\csstidy mini_temp.css --template=highest %1\%fname%.min.css
 echo ^> ... done.
 echo.
 
