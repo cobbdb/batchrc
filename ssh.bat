@@ -13,6 +13,8 @@ if "%1" == "/?" (
 set profile=F:\Documents\SSHProfiles\%1.bscp
 if exist %path% (
     stermc -profile=%profile%
+    goto:eof
 ) else (
     stermc %1
+    goto:eof
 )
