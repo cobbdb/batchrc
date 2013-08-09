@@ -6,22 +6,20 @@ If a command has help text available, it will be shown via the ```/?``` flag.
 
 ### Installation
 
-###### 1. Fork this repo.
-###### 2. Clone your fork to ```C:\``` (from command line):
+###### 1. Clone the repo to ```C:\``` (from command line):
 
 > ```
 cd /d c:\
-git clone git@github.com:<username>/batchrc.git
-```
+git clone https://github.com/cobbdb/batchrc.git
 
-###### 3. Add ```C:\batchrc``` to [windows path variable](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx).
+###### 2. Add ```C:\batchrc``` to [windows path variable](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx).
 
 ### Updating
 I'm always adding cool new stuff to this repo, so be sure to update your fork from time to time to stay current.
 
 ```
-git fetch upstream
-git reset --hard upstream/master
+git fetch
+git reset --hard origin/master
 ```
 
 ---
