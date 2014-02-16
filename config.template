@@ -1,0 +1,7 @@
+@echo off
+
+:: Path to you usually clone repos (for developers).
+set goweb_path=C:\path\to\files
+
+:: Path to where you saved your SSHProfiles.
+set term_path=C:\path\to\files

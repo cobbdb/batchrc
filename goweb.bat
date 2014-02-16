@@ -1,2 +1,4 @@
 @echo off
-cd /d F:\wamp\www\%*
+call config
+
+cd /d %goweb_path%\%*

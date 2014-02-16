@@ -1,4 +1,5 @@
 @echo off
+call config
 
 if [%1]==[] (
     echo Missing destination. Use /? for help.
@@ -10,7 +11,7 @@ if "%1" == "/?" (
 )
 
 :: http://www.bitvise.com/tunnelier#sftpc
-set profile=F:\Documents\SSHProfiles\%1.bscp
+set profile=%term_path%\%1.bscp
 if exist %profile% (
     sftpc -profile=%profile%
     goto:eof
