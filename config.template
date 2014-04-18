@@ -1,7 +1,13 @@
 @echo off
 
-:: Path to where you usually clone repos (for developers).
+:: Path to installation directory (where this file is).
+set brc_path=C:\batchrc
+
+:: Path to where you usually clone repos.
 set goweb_path=C:\path\to\files
 
 :: Path to where you saved your SSHProfiles.
 set term_path=C:\path\to\files
+
+:: Your GitHub username.
+set gh_username=my_username
