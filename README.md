@@ -10,8 +10,6 @@ If a command has help text available, it will be shown via the ```/?``` flag.
     > cd batchrc
     > setup
 
-Please *NOTE*: Do not run setup more than once. This script creates environment variables needed by batchrc to find things.
-
 ### Configuration
 Edit the ```config.template``` file to include specific paths on your system. Only a few commands use these settings, but -for those commands- they are required. After inputing your information, save the template as ```config.bat``` and you're ready to go.
 
