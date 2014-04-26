@@ -1,4 +1,6 @@
 @echo off
 
-cd /d C:\batchrc
-gitreset
+pushd "%~dp0"
+cd /d %BRC_PATH%
+call gitreset
+popd

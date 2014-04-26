@@ -6,13 +6,11 @@ If a command has help text available, it will be shown via the ```/?``` flag.
 
 ### Installation
 
-###### 1. Clone the repo to ```C:\``` (from command line):
+    > git clone https://github.com/cobbdb/batchrc.git
+    > cd batchrc
+    > setup
 
-> ```
-cd /d c:\
-git clone https://github.com/cobbdb/batchrc.git
-
-###### 2. Add ```C:\batchrc``` to [windows path variable](http://geekswithblogs.net/renso/archive/2009/10/21/how-to-set-the-windows-path-in-windows-7.aspx).
+Please *NOTE*: Do not run setup more than once. This script creates environment variables needed by batchrc to find things.
 
 ### Configuration
 Edit the ```config.template``` file to include specific paths on your system. Only a few commands use these settings, but -for those commands- they are required. After inputing your information, save the template as ```config.bat``` and you're ready to go.
@@ -20,9 +18,8 @@ Edit the ```config.template``` file to include specific paths on your system. On
 ### Updating
 I'm always adding cool new stuff to this repo, so be sure to update from time to time to stay current.
 
-```
-updatebrc
-```
+    > updatebrc
 
 ---
-By Dan Cobb: <cobbdb@gmail.com>
+* By Dan Cobb: <cobbdb@gmail.com>
+* License: MIT

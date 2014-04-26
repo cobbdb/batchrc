@@ -5,6 +5,7 @@ if [%1]==[] (
     goto:eof
 )
 if "%1" == "/?" (
+    Clone one of your GitHub repos.
     echo gitclone ^<repo name without .git^>
     goto:eof
 )

@@ -6,6 +6,7 @@ if [%1]==[] (
     goto:eof
 )
 if "%1" == "/?" (
+    SSH using the Bitvice SSH Client.
     echo ssh profileName^|user@host.com
     goto:eof
 )
