@@ -1,8 +1,5 @@
 @echo off
 
-:: Path to installation directory (where this file is).
-set brc_path=C:\batchrc
-
 :: Path to where you usually clone repos.
 set goweb_path=C:\path\to\files
 
