@@ -12,3 +12,4 @@ if "%1" == "/?" (
 
 call config
 git clone git@github.com:%gh_username%/%1.git
+cd %1
