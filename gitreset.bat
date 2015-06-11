@@ -6,5 +6,7 @@ if [%1]==[] (
     set branch=%1
 )
 
+echo Fetch and reset to origin/%branch%
+echo.
 git fetch
 git reset --hard origin/%branch%
