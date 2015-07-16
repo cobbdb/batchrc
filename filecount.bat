@@ -1,7 +1,7 @@
 @echo off
 
 :: Print help instead of running.
-if "%1"=="/?" (
+if "%1" == "/?" (
     echo Usage: filecount [/?]
     echo.
     echo Displays a tally of all files in the current directory. Includes hidden files.

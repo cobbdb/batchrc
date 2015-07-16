@@ -6,8 +6,9 @@ if [%1]==[] (
     goto:eof
 )
 if "%1" == "/?" (
-    SFTP using the Bitvice SFTP Client.
-    echo sftp profileName^|user@host.com
+    echo Usage: sftp profileName^|user@host.com
+    echo.
+    echo SFTP using the Bitvice SFTP Client.
     goto:eof
 )
 
