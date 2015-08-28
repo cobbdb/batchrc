@@ -1,7 +1,7 @@
 @echo off
 
 :: Print help instead of running.
-if "%1" == "/?" (
+if "%~1" == "/?" (
     echo Usage: grep "<string>" ^<filename pattern^>
     echo Ex: grep "setTimeout" *.js
     echo.
