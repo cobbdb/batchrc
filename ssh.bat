@@ -15,7 +15,7 @@ if "%1" == "/?" (
 :: http://www.bitvise.com/tunnelier#sexec
 set profile=%term_path%\%1.bscp
 if exist %profile% (
-    stermc -profile=%profile%
+    stermc -profile="%profile%"
     goto:eof
 ) else (
     stermc %1
