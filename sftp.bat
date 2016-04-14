@@ -15,9 +15,9 @@ if "%1" == "/?" (
 :: http://www.bitvise.com/tunnelier#sftpc
 set profile=%term_path%\%1.bscp
 if [%2] == [] (
-    set cmd=-profile=%profile%
+    set cmd=-profile="%profile%"
 ) else (
-    set cmd=-profile=%profile% -cmd=%2
+    set cmd=-profile="%profile%" -cmd=%2
 )
 
 if exist %profile% (
