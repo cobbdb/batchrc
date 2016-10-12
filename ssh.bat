@@ -14,10 +14,23 @@ if "%1" == "/?" (
 
 :: http://www.bitvise.com/tunnelier#sexec
 set profile=%term_path%\%1.bscp
-if exist %profile% (
+echo.
+if exist "%profile%" (
+    echo Connecting with profile %1.bscp ...
+    echo.
     stermc -profile="%profile%"
     goto:eof
 ) else (
-    stermc %1
-    goto:eof
+    set profile=%term_path%\%1.tlp
+    if exist "%profile%" (
+        echo Connecting with profile %1.tlp ...
+        echo.
+        stermc -profile="%profile%"
+        goto:eof
+    ) else (
+        echo Connecting to %1 ...
+        echo.
+        stermc %1
+        goto:eof
+    )
 )
