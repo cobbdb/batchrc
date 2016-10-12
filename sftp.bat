@@ -13,17 +13,31 @@ if "%1" == "/?" (
 )
 
 :: http://www.bitvise.com/tunnelier#sftpc
-set profile=%term_path%\%1.bscp
+
 if [%2] == [] (
-    set cmd=-profile="%profile%"
+    set cmd=
 ) else (
-    set cmd=-profile="%profile%" -cmd=%2
+    set cmd=-cmd=%2
 )
 
-if exist %profile% (
-    sftpc %cmd%
+set profile_bscp=%term_path%\%1.bscp
+set profile_tlp=%term_path%\%1.tlp
+echo.
+if exist "%profile_bscp%" (
+    echo Connecting with profile %1.bscp ...
+    echo.
+    sftpc -profile="%profile_bscp%" %cmd%
     goto:eof
 ) else (
-    sftpc %*
-    goto:eof
+    if exist "%profile_tlp%" (
+        echo Connecting with profile %1.tlp ...
+        echo.
+        sftpc -profile="%profile_tlp%" %cmd%
+        goto:eof
+    ) else (
+        echo Connecting to %1 ...
+        echo.
+        sftpc %*
+        goto:eof
+    )
 )
