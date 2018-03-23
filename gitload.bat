@@ -6,5 +6,6 @@ if [%1]==[] (
     set branch=%1
 )
 
+git fetch
 git checkout %branch%
-call gitreset %branch%
+git reset --hard origin/%branch%
